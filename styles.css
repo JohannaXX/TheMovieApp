@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&display=swap');
+
+* {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Paytone One", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.container {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+h1{
+    border-bottom: 3px solid #40A0FF;
+}
+
+.logo {
+    max-height: 40px;
+    float: left;
+}
+
+#searchArea {
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#searchForm {
+    background-color: #0080FF;
+    margin: 10px 20% 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #004A94;
+    color: #000000;
+}
+
+#searchText {
+    background-color: #FFFFFF;
+    font-style: italic;
+    font-weight: 200;
+    padding: 8px;
+    border-radius: 12px;
+    width: 80%;
+}
+
+textarea:focus, input:focus {
+    color: #000000;
+}
+
+#btn-search {
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid #004A94;
+    width: 100px;
+}
+
+.searchResults {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.searchResults img {
+    height: 150px;
+    justify-self: center;
+}
+
+.movieDescription {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 40px;
+}
+
+#videoList {
+    margin-top: 20px;
+}
+
+iframe {
+    height: 150px;
+    border: 0;
+    margin: 20px;
+    float: left;
+}
