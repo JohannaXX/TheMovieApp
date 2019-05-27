@@ -76,6 +76,8 @@ textarea:focus, input:focus {
 }
 
 #videoList {
+    flex-direction: column;
+    display: flex;
     margin-top: 20px;
 }
 
