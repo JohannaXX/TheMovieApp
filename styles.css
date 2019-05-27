@@ -82,6 +82,7 @@ textarea:focus, input:focus {
 }
 
 iframe {
+    display: flex;
     height: 150px;
     border: 0;
     margin: 20px;
