@@ -76,13 +76,15 @@ textarea:focus, input:focus {
 }
 
 #videoList {
-    flex-direction: column;
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
     margin-top: 20px;
 }
 
 iframe {
     display: flex;
+    flex-wrap: nowrap;
     height: 150px;
     border: 0;
     margin: 20px;
