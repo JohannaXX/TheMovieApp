@@ -40,7 +40,7 @@ document.getElementById('searchForm').addEventListener('submit', function search
 
                 giphyTitle = title.replace(/(:|-|'|,)/, "").toLocaleLowerCase().split(" ").join("-");
                    
-                const postMovie = axios.get(`http://api.giphy.com/v1/gifs/search?q=movie-${giphyTitle}&api_key=hwi9C9Fit7p3LAAcYwHpK33g4kCeowWl&limit=1`)
+                const postMovie = axios.get(`https://api.giphy.com/v1/gifs/search?q=movie-${giphyTitle}&api_key=hwi9C9Fit7p3LAAcYwHpK33g4kCeowWl&limit=1`)
                 .then((answer) => {
                     videos = answer.data.data;
                     url = videos[0].url;
