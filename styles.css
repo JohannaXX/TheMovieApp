@@ -61,17 +61,23 @@ textarea:focus, input:focus {
 
 .searchResults {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
+    padding: 0% 10% 0%;
 }
 
 .searchResults img {
-    height: 150px;
-    justify-self: center;
+    object-fit: contain;
+    max-height: 250px;
+    max-width: 250px;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .movieDescription {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    object-fit: contain;
+    height: 250px;
     margin: 40px;
 }
 
@@ -83,10 +89,7 @@ textarea:focus, input:focus {
 }
 
 iframe {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 150px;
+    height: 250px;
     border: 0;
     margin: 20px;
-    float: left;
 }
