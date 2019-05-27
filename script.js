@@ -16,7 +16,7 @@ document.getElementById('searchForm').addEventListener('submit', function search
     e.preventDefault();
     let searchWord = document.getElementById('searchText').value;
     
-    axios.get(`http://www.omdbapi.com?s="${searchWord}"&apikey=9be27fce`)
+    axios.get(`https://www.omdbapi.com?s="${searchWord}"&apikey=9be27fce`)
         .then((response) => {
             const results = response.data.Search;
             console.log(results);
