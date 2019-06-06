@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: "Paytone One", sans-serif;
     color: #FFFFFF;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .container {
@@ -17,6 +17,7 @@
 
 h1{
     border-bottom: 3px solid #40A0FF;
+    font-weight: 600;
 }
 
 .logo {
@@ -61,21 +62,21 @@ textarea:focus, input:focus {
 
 .searchResults {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    padding: 0% 10% 0%;
+    grid-template-columns: 4fr 2fr;
+    padding: 0% 5% 0%;
 }
 
 .searchResults img {
     object-fit: contain;
     max-height: 250px;
-    max-width: 250px;
+    max-width: 150px;
     justify-content: center;
     margin-right: 20px;
 }
 
 .movieDescription {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     object-fit: contain;
     height: 250px;
     margin: 40px;
